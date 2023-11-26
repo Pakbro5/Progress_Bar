@@ -1,0 +1,42 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: olive;
+}
+
+.container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    min-height: 70vh;
+}
+
+h3 {
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+
+.progress .progress-bar {
+    height: 10px;
+    width: 400px;
+    padding: 2px;
+    border: 1px solid whitesmoke;
+}
+
+.progress .progress-bar .loading {
+    border-radius: 10px;
+    height: 10px;
+    background:lawngreen;
+    animation: loading 7s forwards 
+}
+
+@keyframes loading {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+    
